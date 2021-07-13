@@ -1,9 +1,6 @@
 package com.example.diary;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.app.FragmentManager;
-import android.app.FragmentTransaction;
+import android.app.DatePickerDialog;
 import android.content.Context;
 import android.os.Bundle;
 import android.util.Log;
@@ -11,19 +8,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import java.io.FileOutputStream;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
-import androidx.fragment.app.DialogFragment;
-import android.app.DatePickerDialog;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.DatePicker;
-import android.widget.TextView;
 import java.util.Calendar;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     private static String TAG = "MainActivity";
